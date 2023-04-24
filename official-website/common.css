@@ -79,6 +79,7 @@ dl{
 }
 
 .gallery{ 
+    display: none;
     width: 30px;
     height: 30px;
     position: fixed; 
