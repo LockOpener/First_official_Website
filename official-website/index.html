@@ -10,7 +10,8 @@
     <script src="./bootstrap-4.6.2-dist/js/jquery-3.5.1.min.js"></script>
     <script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
     <script src="./common.js"></script>
-
+    <script src="./jquery-qrcode-master/dist/jquery-qrcode.js"></script>
+    <script src="./jquery-qrcode-master/dist/jquery-qrcode.min.js"></script>
 </head>
 <body>
 <!--HoldCoin-Wallet-->
@@ -87,6 +88,25 @@
             </div>
             <div class="col-lg-2 col-5 text-center">
                 <a href="#" class="a_"><div class="width-box2"> <span class="HWP">Join the community</span> </div></a> 
+            </div>
+        </div>
+
+        <div class="row invicode_noshow">
+            <div class="invite-card col-lg-4 offset-lg-4 col-8 offset-2">
+                <div class="row">
+                    <div class="col-6 invi_code" style="text-align: center;">
+                        <div class="f-15">Invitation Code</div>
+                        <div class="f-15" id="invi_code1"></div>
+                    </div>
+                    
+                    <div class="col-6">
+                        <div class="erweima_card">
+                            <div id="canvas"></div>
+                        </div>
+                    </div>
+                </div>
+                
+               
             </div>
         </div>
 
@@ -769,5 +789,14 @@
     <img src="./images/top.png" alt="回到顶部">
 </div>
  
+<script>
+    window.onload = function(){
+        let invicode = $("#invi_code1").text()
+        $('#canvas').qrcode({
+			render	: "canvas",
+			text	: invicode
+		});	
+    }
+</script>
 </body>
 </html>

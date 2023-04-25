@@ -49,9 +49,50 @@
     margin: auto;
 }
 
+.erweima_card{
+    text-align: center;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+canvas{
+    margin-top: 10px;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+#invi_code1{
+    margin-top: 15px;
+}
+
+.invicode_noshow{
+    display: none;
+}
+
+.f-15{
+    color: #ffffff;
+}
+
 .hold-coin-introduction{
     position: absolute;
     bottom: -12vh;
+}
+
+
+.invite-card{
+    padding: 25px 10px;
+    background: url("./images/invite-bg.png") no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+
+.asd{
+    font-size: 500px;
 }
 
 .introduction-content{
