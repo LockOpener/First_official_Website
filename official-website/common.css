@@ -51,6 +51,7 @@
 
 .erweima_card{
     text-align: center;
+    margin: 0 auto;
     width: 70px !important;
     height: 70px !important;
     border-radius: 10px;
