@@ -1,7 +1,31 @@
 .nav-bg-color{
     background-color: rgba(255,255,255,0.4);
 }
-
+.twitter_lianjie{
+    display: block;
+    padding: 0px;
+    background-image: url(/images/tw_bg.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100% 260px;
+    transition: all .5s;
+}
+.twitter_lianjie:hover{
+    
+    background-position: 0 -15px;
+}
+.youtube_lianjie{
+    display: block;
+    padding: 0px;
+    background-image:url(./images/youtube_bg.jpg.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100% 260px;
+    transition: all .5s;
+}
+.youtube_lianjie:hover{
+    background-position: 0 -15px;
+}
 .top-bg-box{
     /*let rdb 73,35,180*/
     /*right rgb 232,120,207*/
@@ -489,6 +513,9 @@ dl{
     }
     .text-indent{
          text-indent: -9999px;
+    }
+    .twitter_position{
+        margin-top: 10px;
     }
     .promotion-title{
         font-size: 18px;
