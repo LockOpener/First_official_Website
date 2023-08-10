@@ -1,18 +1,4 @@
-$(function () {
-    $('.nav-item > a').on('click', function(e) {
 
-        $('.nav-item > a').each(function (index, ele) {
-            if($(ele).eq(0).hasClass('nav-link-active')){
-                $(ele).eq(0).removeClass('nav-link-active').addClass('nav-link-color')
-            }
-        })
-
-        $(this).eq(0).removeClass('nav-link-color').addClass('nav-link-active')
-
-    })
-
-    
-})
 
 $(function(){
     
