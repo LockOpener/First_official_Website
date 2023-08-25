@@ -1,3 +1,0 @@
-https://github.com/tronprotocol/Documentation  波场学习
-https://cn.developers.tron.network/ 波场官网
-https://ethereum.org/zh/developers/docs/ 以太坊开发文档
